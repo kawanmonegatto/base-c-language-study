@@ -21,18 +21,13 @@ int main(){
     do{
         printf("Insert the final population\n");
         scanf(" %i", &finalPopulation);
-        if(finalPopulation >= 9){
-            if(startPopulation > finalPopulation){
-            printf("Final Population cant be less than Start Population\n");
-            }else{
-                printf("Final Population is %i\n", finalPopulation);
-                verify++;
-            }
+        if(finalPopulation >= 9 && finalPopulation > startPopulation){
+            printf("Final Population is %i\n", finalPopulation);
+            verify++;
         }else{
-            printf("Final Population cant be less than 9\n");
+            printf(finalPopulation < 9 ? "Final Population cant be less than 9\n": "Final Population cant be less than the Start Population\n");
         }
     }while (verify != 1);
-
 
     for(year = 0; startPopulation < finalPopulation; year++){
         newBorn = startPopulation / 3;
