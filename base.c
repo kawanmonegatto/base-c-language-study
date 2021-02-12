@@ -686,19 +686,3 @@ void passByAddress(int *i){
     return;
 }
 */
-
-int main()
-{
-    char a;
-
-    printf("Insert a letter.");
-    scanf(" %c", &a);
-
-   if(isdigit(a) == 0){
-        printf("Validado");
-    }else{
-        printf("Inválido");
-    }
-
-    return 0;
-}

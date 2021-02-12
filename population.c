@@ -5,31 +5,31 @@ int main(){
 
     verify = startPopulation = finalPopulation = 0;
 
-    do{
+    do {
         printf("Insert the start population\n");
         scanf(" %i", &startPopulation);
-        if(startPopulation < 9){
+        if (startPopulation < 9){
             printf("Start Population cant be less than 9\n");
-        }else{
+        } else {
             printf("Start Population is %i\n", startPopulation);
             verify++;
         }
-    }while (verify != 1);
+    } while (verify != 1);
 
     verify = 0;
 
-    do{
+    do {
         printf("Insert the final population\n");
         scanf(" %i", &finalPopulation);
-        if(finalPopulation >= 9 && finalPopulation > startPopulation){
+        if (finalPopulation >= 9 && startPopulation <= finalPopulation){
             printf("Final Population is %i\n", finalPopulation);
             verify++;
-        }else{
+        } else {
             printf(finalPopulation < 9 ? "Final Population cant be less than 9\n": "Final Population cant be less than the Start Population\n");
         }
-    }while (verify != 1);
+    } while (verify != 1);
 
-    for(year = 0; startPopulation < finalPopulation; year++){
+    for (year = 0; startPopulation < finalPopulation; year++){
         newBorn = startPopulation / 3;
         dead = startPopulation / 4;
         startPopulation += (newBorn + (-dead));
