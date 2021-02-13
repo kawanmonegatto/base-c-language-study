@@ -1,10 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h> // for atoi function
+#include <stdlib.h> //for atoi function
 #include <ctype.h>  // for isdigit and isblank functions
 
 int main(){
     char charHeight[50];
     int rows, columns, verify, height;
+
+    verify = height = 0;
 
     printf("Insert the height between 1 and 8 to the Mario Structure.\n");
 
