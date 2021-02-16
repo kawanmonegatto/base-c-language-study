@@ -12,6 +12,7 @@ int main() {
 
     printf("For how much change you need for?\n");
     scanf(" %f", &change);
+    
     if (change > 0) {
         printf("You need change for %.2f\n", change);
         if (owe = 0) {
