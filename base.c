@@ -32,8 +32,9 @@
 **Conversion Characters**
 Remember to put an space before if doenst have nothing
  %s for strings
- %d for integers
- %c for characters
+ %i for integers (auto detects the base of integer)
+ %d for decimal integer (decimal base)
+ %c for single character
  %.xf for decimal numbers, .x specify how much decimal numbers will be displayed
  %p for pointers
 

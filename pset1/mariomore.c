@@ -9,7 +9,6 @@ int main() {
     verify = height = 0;
 
     printf("Insert the height between 1 and 8 to the Mario Structure.\n");
-
     while (verify != 1) {
         scanf("%s", &charHeight);
         height = atoi(&charHeight); //convert charHeight into an integer value and store in height
@@ -20,7 +19,6 @@ int main() {
             verify++;
         }
     }
-
     for (rows = 0; rows < height; rows++) {
         for (columns = height -1; columns > rows; columns--) {
             printf(" ");
