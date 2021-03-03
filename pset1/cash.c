@@ -39,9 +39,3 @@ int main() {
     printf("Total Coins: %d\n Quarters: %d\n Dimes: %d\n Nickels: %d\n Pennies: %d\n", totalCoins, quarterCoin, dimeCoin, nickelCoin, pennyCoin);
     return 0;
 }
-
-/*  todo list on this program
-    int cents = round(dollars * 100);
-
-    calculate the total of coins as an int number, for exempla "total: 9 coins"
-*/

@@ -5,6 +5,11 @@
     "files.associations": {
         "stdio.h": "c",
         "ctype.h": "c",
-        "stdlib.h": "c"
-    }
+        "stdlib.h": "c",
+        "math.h": "c"
+    },
+    "cSpell.ignoreWords": [
+        "luhn",
+        "luhn's"
+    ]
 }

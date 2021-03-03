@@ -36,6 +36,7 @@ Remember to put an space before if doenst have nothing
  %d for decimal integer (decimal base)
  %c for single character
  %.xf for decimal numbers, .x specify how much decimal numbers will be displayed
+ %lf for doubles or long floats
  %p for pointers
 
 **Type of variables**
