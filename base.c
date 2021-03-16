@@ -1,9 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-#include <math.h>
-#include "structure.h"
+// #include <stdio.h>
+// #include "structure.h"
 
 //Notes
 /*
