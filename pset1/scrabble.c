@@ -1,6 +1,6 @@
 #include <stdio.h>
 //Function Prototype
-int scoreCalc(char playerInput[], int pointsValue[]);
+int ScoreCalc(char playerInput[], int pointsValue[]);
 
 int main() {
     char player1[30], player2[30];
@@ -13,8 +13,8 @@ int main() {
     printf("Player 2: ");
     scanf("%s", player2);
     //Calling the score calculation function
-    points1 = scoreCalc(player1, pointsIndex);
-    points2 = scoreCalc(player2, pointsIndex);
+    points1 = ScoreCalc(player1, pointsIndex);
+    points2 = ScoreCalc(player2, pointsIndex);
     if (points1 > points2) {
         printf("Player 1 wins");
     } else if (points1 < points2) {
@@ -23,7 +23,8 @@ int main() {
         printf("Tie!");
     }
 }
-int scoreCalc(char playerInput[], int pointsValue[]){
+
+int ScoreCalc(char playerInput[], int pointsValue[]){
     int i, ii, totalPoints, numberASCII;
     //Initializing core variables
     numberASCII = 65;

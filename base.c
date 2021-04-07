@@ -1,5 +1,4 @@
-// #include <stdio.h>
-// #include "structure.h"
+// #include "structure.h" - To include structures created by yourself
 
 //Notes
 /*
@@ -684,6 +683,8 @@ void passByAddress(int *i){
 }
 */
 #include <stdio.h>
+#include <string.h>
+
 int main(void) {
 
 }
